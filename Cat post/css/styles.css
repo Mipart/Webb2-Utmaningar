@@ -1,0 +1,34 @@
+/*Marcus Forsberg TE16*/
+/*Sätter upp bredden och flyttar allt mot mitten, samt ritar ut en kant linje*/
+body{
+    width: 600px;
+    margin:auto;
+    
+    border: 2px solid;
+}
+
+/*border radius gör så den fyrkantiga bilden blir rund, width och height tar orginal bilden och förminskar den...Resten bara centrar bilden*/
+img{
+    border-radius: 50%;
+    width: 70%;
+    height: 70%;
+    
+    display:block;
+    margin: auto;
+}
+
+/*Sätter en padding mellan bordern och allt inanför diven*/
+div{
+    padding: 18px;
+}
+
+/*centrerar titel*/
+h2{
+    text-align: center;
+}
+
+/*importerar fonten Lato*/
+p{
+font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}

@@ -1,0 +1,75 @@
+
+/*Marcus Forsberg TE16*/
+/* ----- BUTTONS ----- */
+
+/*båda button fingerar på typ samma sätt.
+button1: sätter först upp storlek färg och form för standard knappen.
+Active fungerar så att när objectet är highlightat i browsern, så går den classen igång. vilket gör att den byter färg i ett animerat format.
+Button2: enda skillnaden mellan dem är psudoclasserna. När man hovrar över objektet så går den klassen(hover) igång.
+*/
+.button{
+    transition: 0.5s;
+    
+    width: 200px;
+    height: 50px;
+    
+    font-size: 40px;
+    text-align: center;
+    color: rgb(225,255,255);
+    
+    background-color: rgb(181, 203, 255);
+    
+    border: 5px solid rgb(181, 203, 255);
+    border-radius: 50px;
+}
+
+.button:active{
+    transition: 0.5s;
+    
+    background-color: rgb(225,255,255);
+    color: rgb(181, 203, 255);
+}
+
+.button2{
+    transition: 0.5s;
+    
+    width: 200px;
+    height: 50px;
+    
+    font-size: 40px;
+    text-align: center;
+    color: rgb(225,255,255);
+    
+    background-color: rgb(181, 203, 255);
+    
+    border: 5px solid rgb(181, 203, 255);
+    border-radius: 50px;
+}
+.button2:hover{
+    transition: 0.5s;
+    
+    background-color: rgb(225,255,255);
+    color: rgb(181, 203, 255);
+}
+
+/*Tar bort det fula streket under en hyperlänk*/
+a{
+    text-decoration: none;
+}
+
+/*Byter färg på texten om användaren har besökt hemsidan innan*/
+a:visited{
+    color: rgb(0, 255, 10);
+}
+
+/*En förbered tag för den som ska vara simulerad som aktive*/
+#active{
+    background-color: rgb(225,255,255);
+    color: rgb(181, 203, 255);
+}
+
+/* ----- Other ----- */
+
+p{
+    font-size: 30px;
+}

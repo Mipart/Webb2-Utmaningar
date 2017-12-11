@@ -1,0 +1,49 @@
+/*Marcus Forsberg TE16*/
+/* tar bort all margin, och bestämmer bredden på rutnätet */
+body {
+    width: 600px;
+    margin: 0 auto;
+}
+/* bestämmer formen utav varje låda */
+.box{
+    float: left;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+/* formar texten */
+p{
+    text-align: center;
+    font-size: 18px;
+}
+
+/* bestämmer färger för varje låda */
+.box:nth-of-type(1){
+    background-color: red;
+}
+.box:nth-of-type(2){
+    background-color: blue;
+}
+.box:nth-of-type(3){
+    background-color: green;
+}
+.box:nth-of-type(4){
+    background-color: pink;
+}
+.box:nth-of-type(5){
+    background-color: white;
+}
+.box:nth-of-type(6){
+    background-color: lightpink;
+}
+.box:nth-of-type(7){
+    background-color: black;
+}
+.box:nth-of-type(8){
+    background-color: whitesmoke;
+}
+.box:nth-of-type(9){
+    background-color: cornflowerblue;
+}

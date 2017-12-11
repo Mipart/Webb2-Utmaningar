@@ -1,0 +1,19 @@
+/* Bestämmer en width för att begränsa hur stor själva listan ska bli i bredden. */
+
+body{
+    width: 200px;
+}
+/* skapar en class för de "checkade" lådorna. Sätter upp en yterkant och sedan färglägger den. Drar också ett sträck igenom all text under denna class. */
+.checkedDiv{
+    border-style: solid;
+    border-color: cadetblue;
+     text-decoration: line-through;
+    
+}
+
+/* sätter en bakgrunds färg och sätter upp en yter kant. */ 
+.unCheckedDiv{
+    background-color:aqua;
+    border-style: solid;
+    border-color: cadetblue;
+}
