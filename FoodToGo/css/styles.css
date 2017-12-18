@@ -1,0 +1,116 @@
+/*Marcus Forsberg TE16*/
+
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	color: #232426;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+	overflow-x: hidden;
+}
+/*--------Section divider-------*/
+.s{
+	box-shadow: 0px 0 10px #ccb3b3;
+	height: 800px;
+	margin-bottom: 100px;
+}
+#s2{
+	background-color: #f4f4f4;
+}
+.s h2{
+	text-align: center;	
+	padding-top: 50px;
+	font-size: 200%;
+}
+#s3{
+	background-color: #f1f1f1;
+}
+
+/*-----S1------*/
+.hero{
+	width: 100vw;
+	height: 100vh;
+	z-index: -1;
+	position: absolute;
+}
+h1{
+	color: #fff;
+	font-size: 450%;
+}
+/*--Nav--*/
+.nav{
+	height: 80px;
+	width: 200px;
+	overflow: hidden;
+	transition: all 1s;
+	margin-left: 200px;
+}
+#meny{
+	transition: all 0.5s;
+	margin-left: 50px;
+}
+.nav:hover #meny{
+	color: 	#c15e1d;
+	transition: all 0.5s;
+}
+.nav:hover{
+	height: 200px;
+}
+/*-Text Decoration-*/
+#s1 li p{
+	font-size: 20px;
+	color: #fff;
+	transition: all .3s;
+}
+#s1 li:hover p{
+	color: #c15e1d;
+	transition: all 1.3s;
+}
+a{
+	text-decoration: none;
+}
+/*-----S2-----*/
+#s2 ul {
+ list-style-type: none;
+	margin-top: 50px;
+}
+#s2 li {
+	float: left;
+    display: block;
+	margin-left: 10px;
+    text-align: center;
+	padding: 50px;
+    text-decoration: none;
+	width: 25%;
+	box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.59);
+}
+h3{
+	font-size: 50px;
+}
+
+/*----s3----*/
+#s3 form{
+	box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.59);
+	padding: 20px;
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 35%;
+}
+
+#s3 div{
+	margin: 5px 0;
+}
+#s3 input{
+	margin-right: 10px;
+	float:right;
+	width: 200px;
+	display: inline-block;
+}
+#s3 textarea{
+	float: right;
+	width: 300px;
+	height: 80px;
+}
