@@ -1,0 +1,100 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+h1{
+	font-size: 60px;
+	transform: translate(-90px,-20px);
+	animation: FadeIn 1s 4s;
+	animation-fill-mode: backwards;
+}
+
+.container{
+	width: 400px;
+	height: 400px;
+	transform: translate(40vw,100px);
+}
+
+.box{
+	height: 100px;
+	width: 100px;
+	background-color: black;
+	position: absolute;
+	transform: rotate(45deg);
+}
+
+#one{
+	transform: rotate(45deg);
+	animation: slideInTop 1s;
+	animation-fill-mode: backwards;
+}
+
+#two{
+	transform: translateY(200px) rotate(45deg);
+	animation: slideInDown 1s 1s;
+	animation-fill-mode: backwards;
+}
+
+#three{
+	transform: translate(100px,100px) rotate(45deg);
+	animation: slideInRight 1s 2s;
+	animation-fill-mode: backwards;
+}
+
+#four{
+	transform: translate(-100px,100px) rotate(45deg);
+	animation: slideInLeft 1s 3s;
+	animation-fill-mode: backwards;
+}
+
+
+
+
+
+/*Animations*/
+
+@keyframes FadeIn{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+@keyframes slideInTop{
+	0%{
+		transform: translateY(-2000px) rotate(0);
+	}
+	80%{
+		transform: rotate(0);
+	}
+}
+
+@keyframes slideInDown{
+	0%{
+		transform: translateY(2000px) rotate(0);
+	}
+	80%{
+		transform: rotate(0) translateY(200px);
+	}
+}
+@keyframes slideInRight{
+	0%{
+		transform: translate(1000px, 100px) rotate(0);
+	}
+	80%{
+		transform: rotate(0) translate(100px,100px);
+	}
+}
+
+@keyframes slideInLeft{
+	0%{
+		transform: translate(-1000px, 100px) rotate(0);
+	}
+	80%{
+		transform: rotate(0) translate(-100px,100px);
+	}
+}
+
