@@ -1,0 +1,28 @@
+.redBox{
+	background-color: #ff0000;
+	width: 200px;
+	height: 50px;
+	margin: 1px;
+}
+
+.blackBox{
+	background-color: #000000;
+	width: 200px;
+	height: 50px;
+	margin: 1px;
+}
+
+@media screen and(min-width: 800px){
+	.blackBox{
+		background-color: pink;
+	}
+}
+
+@media screen and(max-width: 800px) and (min-width:500px){
+	
+	
+}
+
+@media screen and(max-width: 500px){
+
+}
